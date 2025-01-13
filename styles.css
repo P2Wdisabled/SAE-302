@@ -1,0 +1,229 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #DDEFFF;
+    gap: 1rem;
+}
+
+.preview {
+    display: flex;
+    position: relative;
+    div {
+        width: 15%;
+        height: 100vh;
+        background-color: #052F45;
+    }
+    img {
+        width: 90%;
+    }
+    h1{
+        position: absolute;
+        left: 5rem;
+        width: 10rem;
+        color: white;
+        font-size: 78px;
+    }
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: #052F45;
+    color: white;
+    gap: 8rem;
+    img {
+        width: 18rem;
+        box-shadow: #E7639B -80px -80px 0px -50px ;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        padding-right: 4rem;
+        text-align: center;
+        h2{
+            font-size: xx-large;
+            text-transform: uppercase;
+        }
+        img{
+            width: 60rem;
+            box-shadow: none;
+        }
+    }
+}
+
+.bandeUP, .bandeDown{
+    position: absolute;
+    width: 4rem;
+    height: 18rem;
+    background-color: #E7639B;
+    border-radius: 10px;
+}
+
+.bandeUP {
+    top: -70%;
+    left: 2rem;
+}
+.bandeDown {
+    right: 2rem;
+    bottom: -70%;
+    z-index: 100;
+}
+
+.participate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    h2{
+        width: 80%;
+        font-size: xx-large;
+        text-transform: uppercase;
+    }
+    p {
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+.individual {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 0 4rem 4rem 4rem;
+    background-color: #052F45;
+    color: white;
+    text-align: left;
+    gap: 1rem;
+}
+
+.individual div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    font-size: xx-large;
+}
+
+.individual div div {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.individual div div img{
+    width: 5rem;
+}
+.individual div p {
+    font-size: 20px;
+    text-align: left;
+}
+.individual .img{
+    position: absolute;
+    bottom: -10%;
+    left: 1rem;
+    z-index: 100;
+    width: 25%;
+}
+.organisation {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    position: relative;
+    padding: 4rem;
+    background-color: #DDEFFF;
+    color: black;
+    text-align: center;
+    gap: 1rem;
+}
+.organisation div {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.organisation div img{
+    width: 5rem;
+}
+
+.organisation p {
+    width: 55%;
+    font-size: 20px;
+    text-align: right;
+}
+
+.organisation .img {
+    position: absolute;
+    top: -20%;
+    right: 1rem;
+    width: 25%;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #052F45;
+    color: white;
+    text-align: center;
+    gap: 1rem;
+}
+.news .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.news .container div{
+    width: 22rem;
+    background-color: #DDEFFF;
+    border-radius: 15px;
+    color: black;
+    text-align: left;
+}
+
+.news .container div div{
+    width: 20rem;
+    padding: 1rem;
+}
+.news .container div img{
+    width: 22rem;
+}
+.news h2 {
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+.news button {
+    width: 10rem;
+    padding: 0.5rem 3rem;
+    background-color: #E7639B;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+.newsletter h2 {
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.newsletter button {
+    padding: 0.5rem 3rem;
+    background-color: #E7639B;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+.newsletter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
